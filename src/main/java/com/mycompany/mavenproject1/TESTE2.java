@@ -15,7 +15,6 @@ import java.util.GregorianCalendar;
 public class TESTE2 {
 
     public static void main(String[] args) {
-
         /*
          Long a = 1234;
          long b = 3;
@@ -26,6 +25,9 @@ public class TESTE2 {
          char ch2 = "A";
          long f = (long) 9876543210;
          */
+        
+        
+        
         GregorianCalendar d1 = new GregorianCalendar(2014, 11, 25);
         GregorianCalendar d2 = new GregorianCalendar(2014, Calendar.DECEMBER, 24, 23, 59);
         long dif = d1.getTime().getTime() - d2.getTime().getTime();
